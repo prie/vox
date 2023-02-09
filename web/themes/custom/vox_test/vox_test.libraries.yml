@@ -1,0 +1,7 @@
+# Main theme library.
+global:
+  js:
+    js/vox-test.js: {}
+  css:
+    theme:
+      css/layout.css: {}

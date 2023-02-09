@@ -1,0 +1,44 @@
+<div class="event-news-wrapper">
+    <div class="event-wrapper">
+        <h2 class="event-list-title">{{ 'Event'|t }}</h2>
+        <div class="event-item-wrapper">
+        {% for event_node in event_nodes %}
+            <div class="event-item">
+                <div class="event-item-inner">
+                    <a href="{{ event_node.path }}" title="{{ event_node.title }}">
+                        <img src="{{ event_node.image_large }}" alt="" class="event-image">
+                    </a>
+                    <div class="event-text">
+                        <div class="event-date">{{ event_node.date }}</div>
+                        <div class="event-body">{{ event_node.body|raw }}</div>
+                        <div class="link-wrapper">
+                            <a class="event-link" href="{{ event_node.path }}" title="{{ event_node.title }}">{{ "Detail" | t }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="news-wrapper">
+        <h2 class="news-list-title">{{ 'News'|t }}</h2>
+        <div class="news-item-wrapper">
+        {% for news_node in news_nodes %}
+            <div class="news-item">
+                <div class="news-item-inner">
+                    <a href="{{ news_node.path }}" title="{{ news_node.title }}">
+                        <img src="{{ news_node.image_large }}" alt="" class="news-image">
+                    </a>
+                    <div class="news-text">
+                        <div class="news-date">{{ news_node.date }}</div>
+                        <div class="news-body">{{ news_node.body|raw }}</div>
+                        <div class="link-wrapper">
+                            <a class="news-link" href="{{ news_node.path }}" title="{{ news_node.title }}">{{ "Detail" | t }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>

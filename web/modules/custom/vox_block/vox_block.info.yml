@@ -1,0 +1,8 @@
+name: Vox Block
+type: module
+description: Provides functionality for Vox technical test
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:block
+  - drupal:node
