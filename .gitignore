@@ -4,6 +4,7 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Ignore dependencies that are managed with Composer.
+composer.lock
 vendor
 web/core
 web/libraries
@@ -12,6 +13,7 @@ web/themes/contrib
 web/profiles/contrib
 
 # Ignore configuration files that may contain sensitive information.
+web/sites/*/settings.php
 web/sites/*/settings.local.php
 web/sites/*/services*.yml
 web/sites/sites.local.php
