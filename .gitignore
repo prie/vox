@@ -1,0 +1,26 @@
+# These are some examples of commonly ignored file patterns.
+# You should customize this list as applicable to your project.
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+# Ignore dependencies that are managed with Composer.
+vendor
+web/core
+web/libraries
+web/modules/contrib
+web/themes/contrib
+web/profiles/contrib
+
+# Ignore configuration files that may contain sensitive information.
+web/sites/*/settings.local.php
+web/sites/*/services*.yml
+web/sites/sites.local.php
+
+# Ignore paths that contain user-generated content.
+web/sites/*/files
+
+# Text editor/IDE
+.vscode
+
+# Ignore Mac System File
+*.DS_Store
