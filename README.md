@@ -5,6 +5,6 @@
 - Run: composer install
 - Install the project by access it from browser
 - Import the database
-- Copy the zipped files (attached in email)
+- Copy the zipped files directory (attached in email) to the project
 - Clear the cache
 - Done!
