@@ -61,6 +61,24 @@ main {
     padding: 0 8px;
 }
 
+/* Primary tabs */
+#block-vox-test-primary-local-tasks ul {
+    display: flex;
+}
+#block-vox-test-primary-local-tasks ul li {
+    list-style: none;
+    margin: 0 8px;
+}
+#block-vox-test-primary-local-tasks ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 4px;
+}
+#block-vox-test-primary-local-tasks ul li a.is-active,
+#block-vox-test-primary-local-tasks ul li a:hover {
+    border-bottom: 1px solid;
+}
+
 /* Event & News */
 .event-news-wrapper {
     display: flex;
