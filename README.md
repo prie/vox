@@ -8,3 +8,6 @@
 - Copy the zipped files directory (attached in email) to the project
 - Clear the cache
 - Done!
+
+**Credentials**
+- super-admin/Vox_123
